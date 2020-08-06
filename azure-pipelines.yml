@@ -19,3 +19,8 @@ steps:
     npm install
     npm run build
   displayName: 'npm install and build'
+
+ let issues = {
+        list: [],
+        pageSize: 5,
+        currPage: 0
